@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.RecipeDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/details_image"
+            android:src="@drawable/index"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Recipe Name"
+                android:textSize="19sp"
+                android:id="@+id/details_name"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="15sp"
+                android:id="@+id/details_category"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_description"
+            android:layout_margin="25dp"
+            android:textSize="18sp"
+            android:text="Description"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Ingredients"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_ingredients"
+            android:layout_margin="25dp"
+            android:textSize="18sp"
+            android:text="Ingredients"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Process"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_steps"
+            android:layout_margin="25dp"
+            android:textSize="18sp"
+            android:text="Steps"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="button_update_recipe"
+                android:text="Update"
+                android:textColor="#50394c"
+                android:textSize="22sp"
+                android:enabled="false"
+                />
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="button_delete_recipe"
+                android:text="Delete"
+                android:textColor="#50394c"
+                android:textSize="22sp"
+                android:enabled="false"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

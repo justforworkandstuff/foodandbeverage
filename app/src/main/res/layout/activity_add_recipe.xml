@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.AddRecipe"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/add_image"
+            android:src="@drawable/index"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipe Name"
+            android:textSize="19dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/add_name"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/add_description"/>
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:id="@+id/add_menu"
+            android:layout_marginBottom="10dp">
+
+        </Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredients"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/add_ingredients"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Steps"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/add_steps"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Select Image"
+            android:textSize="22sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:onClick="button_select_image"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Upload Recipe"
+            android:textSize="22sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:onClick="button_upload_image"/>
+    </LinearLayout>
+</ScrollView>

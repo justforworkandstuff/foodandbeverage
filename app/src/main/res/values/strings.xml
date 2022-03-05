@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Food and Beverage</string>
+    <string-array name="Category">
+        <item>Chicken</item>
+        <item>Beef</item>
+        <item>Lamb</item>
+        <item>Seafood</item>
+        <item>Pork</item>
+        <item>Vegetarian</item>
+        <item>Mocktails &amp; Cocktails</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Smoothie</item>
+    </string-array>
+</resources>

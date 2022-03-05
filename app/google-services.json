@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "547692825745",
+    "firebase_url": "https://foodandbeverage-7abcd.firebaseio.com",
+    "project_id": "foodandbeverage-7abcd",
+    "storage_bucket": "foodandbeverage-7abcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547692825745:android:ab6c26cbd271fa8dad0330",
+        "android_client_info": {
+          "package_name": "com.example.foodandbeverage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547692825745-eattblm9d4uo7ue7e9s8flf2pugc046i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodandbeverage",
+            "certificate_hash": "7c33ebb0d46883fc385e4ede66ae89360b102afe"
+          }
+        },
+        {
+          "client_id": "547692825745-nbqvtlq9ptfj5bcit72jovlghq1dmrlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvwzm4IzT7NOGd-2hSEwlVSP3IheN5rP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547692825745-nbqvtlq9ptfj5bcit72jovlghq1dmrlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
